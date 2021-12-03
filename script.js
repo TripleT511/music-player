@@ -51,6 +51,18 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Chúng Ta Của Hiện Tại',
+            singer: 'Sơn Tùng M-TP',
+            path: './musics/08.m4a',
+            image: './img/7.jfif'
+        },
+        {
+            name: 'Muộn Rồi Mà Sao Còn',
+            singer: 'Sơn Tùng M-TP',
+            path: './musics/07.m4a',
+            image: './img/8.jfif'
+        },
+        {
             name: 'Tokyo Drift',
             singer: 'Teriyaki Boys',
             path: './musics/01.mp3',
@@ -63,7 +75,7 @@ const app = {
             image: './img/2.jpg'
         },
         {
-            name: 'Yêu đừng sợ đau',
+            name: 'Yêu Đừng Sợ Đau',
             singer: 'Ngô Lan Hương',
             path: './musics/03.mp3',
             image: './img/3.jpeg'
@@ -75,13 +87,13 @@ const app = {
             image: './img/4.jpg'
         },
         {
-            name: 'Bước qua nhau',
+            name: 'Bước Qua Nhau',
             singer: 'Vũ',
             path: './musics/05.mp3',
             image: './img/5.jpg'
         },
         {
-            name: 'Em là còn thuyền cô đơn',
+            name: 'Em Là Con Thuyền Cô Đơn',
             singer: 'Thái Học',
             path: './musics/06.mp3',
             image: './img/6.jpg'
